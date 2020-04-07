@@ -10,7 +10,7 @@
   font-size: 1rem;
 }
 
-.img-container {
+.imgContainer {
   position: relative;
   background: var(--primaryColor);
   transition: var(--mainTransition);
@@ -18,7 +18,7 @@
 .img {
   transition: var(--mainTransition);
 }
-.img-container:hover .img {
+.imgContainer:hover .img {
   opacity: 0.3;
 }
 
@@ -41,7 +41,7 @@
   background: var(--mainWhite);
   color: var(--primaryColor);
 }
-.img-container:hover .link {
+.imgContainer:hover .link {
   opacity: 1;
 }
 
